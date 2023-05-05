@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Heap</title>
+</head>
+
+<body>
+    <!-- link to script.js -->
+    <script src="script.js"></script>
+    <!-- link to style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- header -->
+    <header>
+        <h1>Wordscapes Solver</h1>
+        <h4>Word Heap</h4>
+        <i>Lists all the possible words with the provided letters</i>
+    </header>
+
+    <!-- links to other pages -->
+    <!-- link to index.html -->
+    <a href="index.html">Home</a>
+    <br>
+    <!-- link to heap.html -->
+    <a href="heap.html">Main Solver</a>
+    <br>
+    <!-- link to blanks.html -->
+    <a href="blanks.html">Blanks Solver</a>
+    <br>
+
+    <!-- main -->
+
+    <!-- have a textbox for entry, -->
+    <!-- submit button, -->
+    <!-- and an output div to dump an array of text -->
+    <!-- using simple html and javascript (no php) -->
+    <h2>Enter the letters</h2>
+    <input type="text" id="letters" name="letters" placeholder="Enter the letters">
+    <button onclick="solve_heap()">Solve</button>
+    <div id="head-out">
+        <i>Please allow the output a moment to process after pressing the Solve button.</i>
+    </div>
+    <div id="output"></div>
+</body>
+
+</html>
